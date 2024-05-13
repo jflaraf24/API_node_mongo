@@ -1,0 +1,22 @@
+{
+  "name": "comentarios-backend",
+  "version": "1.0.0",
+  "description": "API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "build":"nest build"
+  },
+  "author": "Jasson Ferley Lara",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@nestjs/config": "^3.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13"
+  }
+}
